@@ -1,0 +1,12 @@
+{
+  "lookback_rounds": 3,
+  "recent_dates": [
+    20260302,
+    20260123,
+    20251224
+  ],
+  "dead_factors": [
+    "cross_aggressiveness_ratio"
+  ],
+  "count": 1
+}

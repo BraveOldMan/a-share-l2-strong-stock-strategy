@@ -1,0 +1,46 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Generated data and model artifacts
+models/
+catboost_info/
+scratch/
+v18_archive/
+v19_archive/
+v20_final_archive/
+v22_archive/
+*.parquet
+*.csv
+*.log
+*.tsv
+*.pth
+*.ubj
+*.zip
+*.png
+v3_lgb.txt
+v3_catboost
+v3_xgb.ubj
+logs.txt
+
+# Local temporary outputs
+run_wf*.log
+test_v19.log
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,128 @@
+{
+  "discovered_features": [
+    "intraday_momentum_sub_relative_volume_rank_10m",
+    "intraday_momentum_sub_tick_freq_per_sec",
+    "intraday_momentum_log1p_abs",
+    "intraday_momentum_sub_vol_acceleration",
+    "intraday_momentum_sub_ofi_acceleration",
+    "intraday_momentum_sub_consecutive_same_size_ratio",
+    "intraday_momentum_mul_trade_size_clustering",
+    "intraday_momentum_mul_tick_freq_per_sec",
+    "intraday_momentum_sub_wmp_divergence_mean",
+    "intraday_momentum_rank",
+    "intraday_momentum_mul_trade_size_hhi",
+    "intraday_momentum_mul_vol_acceleration",
+    "intraday_momentum_sub_smc_wyckoff_accum",
+    "intraday_momentum_sub_phantom_liquidity",
+    "intraday_momentum_div_depth_var_last"
+  ],
+  "ic_values": {
+    "intraday_momentum_sub_relative_volume_rank_10m": 0.12355384566319601,
+    "intraday_momentum_sub_tick_freq_per_sec": 0.11593914910988187,
+    "intraday_momentum_log1p_abs": -0.10151765845537976,
+    "intraday_momentum_sub_vol_acceleration": 0.09794177712728602,
+    "intraday_momentum_sub_ofi_acceleration": -0.04375867409097992,
+    "intraday_momentum_sub_consecutive_same_size_ratio": 0.04301923498835977,
+    "intraday_momentum_mul_trade_size_clustering": -0.03949287501507544,
+    "intraday_momentum_mul_tick_freq_per_sec": -0.03757234805302794,
+    "intraday_momentum_sub_wmp_divergence_mean": -0.03693210543246238,
+    "intraday_momentum_rank": -0.03504946007331662,
+    "intraday_momentum_mul_trade_size_hhi": -0.034156740539158785,
+    "intraday_momentum_mul_vol_acceleration": -0.03412438689570001,
+    "intraday_momentum_sub_smc_wyckoff_accum": 0.034033135486466665,
+    "intraday_momentum_sub_phantom_liquidity": -0.03169582906134276,
+    "intraday_momentum_div_depth_var_last": -0.030360225239453004
+  },
+  "base_features_used": [
+    "intraday_momentum",
+    "relative_volume_rank_10m",
+    "intraday_strength_zscore",
+    "wmp_divergence_mean",
+    "smc_wyckoff_accum",
+    "phantom_liquidity",
+    "vol_acceleration",
+    "trade_size_clustering",
+    "depth_var_last",
+    "trade_size_hhi",
+    "smc_fvg_bullish",
+    "tick_freq_per_sec",
+    "liquidity_void_probe",
+    "oir_10_mean",
+    "ofi_sum_ma10",
+    "ofi_acceleration",
+    "consecutive_same_size_ratio",
+    "book_slope_mean",
+    "vol_max_10",
+    "cvd_divergence",
+    "smc_premium_discount",
+    "pre_close",
+    "hidden_fill_ratio",
+    "depth_weighted_impact_mean",
+    "volatility_mean",
+    "spread_ratio_mean",
+    "bid_ask_slope_diff",
+    "vwap_divergence",
+    "ofi_sum",
+    "depth_asym_persistence"
+  ],
+  "factor_dependencies": {
+    "intraday_momentum_sub_relative_volume_rank_10m": [
+      "intraday_momentum",
+      "relative_volume_rank_10m"
+    ],
+    "intraday_momentum_sub_tick_freq_per_sec": [
+      "intraday_momentum",
+      "tick_freq_per_sec"
+    ],
+    "intraday_momentum_log1p_abs": [
+      "intraday_momentum"
+    ],
+    "intraday_momentum_sub_vol_acceleration": [
+      "intraday_momentum",
+      "vol_acceleration"
+    ],
+    "intraday_momentum_sub_ofi_acceleration": [
+      "intraday_momentum",
+      "ofi_acceleration"
+    ],
+    "intraday_momentum_sub_consecutive_same_size_ratio": [
+      "intraday_momentum",
+      "consecutive_same_size_ratio"
+    ],
+    "intraday_momentum_mul_trade_size_clustering": [
+      "intraday_momentum",
+      "trade_size_clustering"
+    ],
+    "intraday_momentum_mul_tick_freq_per_sec": [
+      "intraday_momentum",
+      "tick_freq_per_sec"
+    ],
+    "intraday_momentum_sub_wmp_divergence_mean": [
+      "intraday_momentum",
+      "wmp_divergence_mean"
+    ],
+    "intraday_momentum_rank": [
+      "intraday_momentum"
+    ],
+    "intraday_momentum_mul_trade_size_hhi": [
+      "intraday_momentum",
+      "trade_size_hhi"
+    ],
+    "intraday_momentum_mul_vol_acceleration": [
+      "intraday_momentum",
+      "vol_acceleration"
+    ],
+    "intraday_momentum_sub_smc_wyckoff_accum": [
+      "intraday_momentum",
+      "smc_wyckoff_accum"
+    ],
+    "intraday_momentum_sub_phantom_liquidity": [
+      "intraday_momentum",
+      "phantom_liquidity"
+    ],
+    "intraday_momentum_div_depth_var_last": [
+      "intraday_momentum",
+      "depth_var_last"
+    ]
+  }
+}
